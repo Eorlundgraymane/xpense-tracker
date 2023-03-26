@@ -1,0 +1,27 @@
+.xt-track-header,.xt-track-items,.xt-title-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;        
+}
+.xt-ui-header{
+    color: blue;
+    padding-left: 10%;
+    padding-right: 10%;
+    border-left: 2px solid black;
+    width: 100%;
+}
+
+.xt-ui-items{    
+    width: 100%;
+    color: blue;    
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+}
+
+.xt-ui-item{
+    width: 100%;
+    border-bottom: 1px solid black;
+}

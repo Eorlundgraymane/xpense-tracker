@@ -1,0 +1,23 @@
+  <%- include("./shared/header.ejs")%>  
+    <div class="xt-title-container">
+        <h1>Xpense Tracker</h1>
+    </div>    
+    <div class="xt-track-header">
+        <div class="xt-ui-header">Balance
+            <ol class="xt-ui-items" id="xt-balance-items">                
+            </ol>
+        </div>
+        <div class="xt-ui-header"><button type="button" onclick = "addAmountPopUp('Income')">Add Income</button>  
+            <ol class="xt-ui-items" id="xt-income-items">
+            </ol>
+        </div>
+        <div class="xt-ui-header"><button type="button" onclick = "addAmountPopUp('Expense')">Add Expense</button>
+            <ol class="xt-ui-items" id="xt-expense-items">
+            </ol>        
+        </div>
+        <div class="xt-ui-header">Remarks
+            <ol class="xt-ui-items" id="xt-reason-items">
+            </ol>        
+        </div>
+    </div>
+<%- include("./shared/footer.ejs")%>  
